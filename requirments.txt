@@ -1,0 +1,7 @@
+os
+fade
+gratient
+time
+random
+colorama
+pygame
