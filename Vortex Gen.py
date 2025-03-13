@@ -59,6 +59,6 @@ while True:
 
         with open("Vortex gen log.txt", "a+") as cardFile:
 
-            cardFile.write(f"{cardcode} |3|2030 - 167\n")
+            cardFile.write(f"{cardcode} |3|2030 - {ccv}\n")
 
             cardFile.close()
