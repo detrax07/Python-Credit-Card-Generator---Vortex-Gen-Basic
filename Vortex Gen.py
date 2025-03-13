@@ -51,10 +51,11 @@ time.sleep(3)
 
 while True:
         cardcode = ''.join(random.choice(caracters) for _ in range(16))
+        ccv = ''.join(random.choice(caracters) for _ in range(3))
 
         init(autoreset=True)
 
-        print(Fore.RED + f"[$] SUCCESSFULLY GENERATED | UNCHECKED :{cardcode} |3|2030 - 167")
+        print(Fore.RED + f"[$] SUCCESSFULLY GENERATED | UNCHECKED :{cardcode} |3|2030 - {ccv}")
 
         with open("Vortex gen log.txt", "a+") as cardFile:
 
