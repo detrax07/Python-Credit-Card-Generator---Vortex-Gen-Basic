@@ -38,7 +38,7 @@ print(gratient.purple("[@] This generator has been coded by https://github.com/d
 time.sleep(1)
 print(gratient.purple("[@] This generator generate unchecked credit cards !"))
 time.sleep(1)
-print(gratient.purple("[@] This generatopr can not generate user's card, please use a realistic one !"))
+print(gratient.purple("[@] This generator can not generate user name's card, please use a realistic one !"))
 time.sleep(1)
 print(gratient.purple("[@] Vortex Gen contains also a premium variant that can generate valid credit card for trial subscriptions."))
 time.sleep(1)
